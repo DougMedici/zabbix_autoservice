@@ -4,7 +4,7 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sleep 3
-clear
+
 
 #Instalação do DB Mysql
 echo "Instalando Banco de Dados"
@@ -19,7 +19,6 @@ sudo wget https://cdn.zabbix.com/zabbix/sources/stable/5.0/zabbix-5.0.0.tar.gz
 ls -la /downloads
 
 #Decompactando
-clear
 echo "Descompactando pacote..."
 tar -zxvf zabbix-5.0.0.tar.gz
 cd zabbix-5.0.0/database/mysql/
